@@ -10,3 +10,8 @@ ArgoCD / AKS
 namespaces "pad-dev" not found
 
 ## Root Cause
+## Fix
+1. Create namespace
+kubectl create namespace pad-dev
+
+2. Re-sync application in ArgoCD
